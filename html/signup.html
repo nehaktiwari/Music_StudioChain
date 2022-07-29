@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../css/style1.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="navul">
+                <li><a class="navli" href="../index.html">Home</a></li>
+                <li><a class="navli" href="premium.html">Premium</a></li>
+                <li><a class="navli" href="support.html">Support</a></li>
+                <li><a class="navli" href="login.html">Log In</a></li>
+                <li><a class="navli" href="signup.html">Sign Up</a></li>
+            </ul>
+            <!-- <img class="logo" src="heading logo.png" alt=""> -->
+        </nav>
+        <img class="icons" src="../image/favicon.ico" alt=""><br>
+        <img class="icons2" src="../image/heading logo.png" alt=""><br>
+        <h2 class="heading_of_the_page">Sign Up</h2>
+        <p class="greet"></p>
+        <main>
+
+            <form id="frm"  onsubmit="load_Trail()" action="Trial.html" >
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+                <br>
+                <div class="error"></div>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" placeholder=" Enter your Email">
+                <div class="error"></div>
+                <br>
+                <label for="username"> Set a Username</label><br>
+                <input type="text" id="Username" name="Username" placeholder=" Enter your Username">
+                <div class="error"></div>
+                <br>
+
+                <label for="password">Set Password</label><br>
+                <input type="password" id="password" name="password" placeholder=" Enter your Password">
+                <div class="error"></div>
+                <br>
+
+                <label for="conf_password">Confirm Password</label><br>
+                <input type="password" id="conf_password" name="conf_password" placeholder=" Enter your Password">
+                <div class="error"></div>
+                <br>
+
+                <br>
+                <!-- <a href="Trial.html"> -->
+                <button class="Butt" type="submit" onclick="load_Trail()">Log In</button>
+                <!-- </a> -->
+            </form>
+
+        </main>
+
+    </header>
+    <footer>
+        <ul>
+            <li class="Head1">Company</li>
+            <ol>
+                <br>
+                <br>
+                <a href="#">
+                    <li>About Us</li>
+                </a>
+                <a href="#">
+                    <li>Jobs </li>
+                </a>
+                <a href="#">
+                    <li>For the Record</li>
+                </a>
+            </ol>
+        </ul>
+        <ul>
+            <li class="Head1">Communities</li>
+            <ol>
+                <br>
+                <br>
+                <a href="#">
+                    <li>Developers</li>
+                </a>
+                <a href="#">
+                    <li>For Artist</li>
+                </a>
+                <a href="#">
+                    <li>Advertising</li>
+                </a>
+                <a href="#">
+                    <li>Inverstor</li>
+                </a>
+                <a href="#">
+                    <li>Vendors</li>
+                </a>
+
+            </ol>
+        </ul>
+        <ul>
+            <li class="Head1">Useful links</li>
+            <ol><br>
+                <br>
+                <a href="#">
+                    <li>Support</li>
+                </a>
+                <a href="#">
+                    <li>Web Player</li>
+                </a>
+                <a href="#">
+                    <li>Free Mobile App</li>
+                </a>
+
+            </ol>
+        </ul>
+    </footer>
+
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="../javascript_jquery/validate.js"></script>
+
+    <script src="../javascript_jquery/stylejs.js"></script>
+</body>
+
+</html>

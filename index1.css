@@ -1,0 +1,209 @@
+/* for index page , support , premium */
+
+#trail{
+    display: flexbox;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+#premium_info{
+    text-align: center;
+    padding: 100px;
+}
+
+footer {
+    background-color: black;
+    color: aliceblue;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+
+
+.footer1 {
+    display: flex;
+    list-style: none;
+    font-size: 40px;
+}
+
+.footer1:hover {
+    color: brown;
+}
+
+.footer {
+    display: flexbox;
+    flex-direction: column;
+    list-style: none;
+    font-size: x-large;
+}
+
+.Head1 {
+    color: aqua;
+    display: flexbox;
+    flex-direction: row;
+}
+
+a[href="#"] {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+    color: brown;
+}
+
+.Intro_Supp {
+        background-image: url("image/5f9c9cfc740569d1a4ca3543.jpg");
+        height: 710px;
+        color: white;
+        font-size: 42px;
+        display: flexbox;
+        flex-direction: column;
+        padding: 100px;
+}
+[type="search"]{
+    height: 50px;
+    width: 1000px;
+}
+a:hover{
+    color: aqua;
+}
+.search {
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 50px;
+    width: 100%;
+    padding: 4px 23px 2px 30px;
+    outline: 0;
+    background-color: #f5f5f5;
+  }
+  
+  .search-icon {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 14px;
+  }
+  
+.Intro {
+    background-image: url("image/wallpaper.webp");
+    height: 710px;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    display: flexbox;
+    flex-direction: column;
+}
+
+.introsupp_heading{
+    padding-top: 100px;
+    text-align: center;
+    /* padding-bottom:; */
+}
+.intropic_heading{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+span {
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: -2px;
+    line-height: 50px;
+    text-transform: none;
+    color: #FFFFFF;
+}
+
+input[type="button"]:hover{
+    border: 3px solid black;
+   
+    padding: 5px;
+}
+
+input[type="button"] {
+    /* align-items: flex-end; */
+    height: 50px;
+    background-color: white;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 100px;
+    width:200px;
+    text-align: center;
+    margin: 20px;
+}
+
+.intropic {
+    padding: 60px;
+    float: left;
+    height: 400px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    flex-direction: row;
+
+}
+
+.navli {
+    padding: 10px;
+    color: white;
+    display: flex;
+    display: inline-flex;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+.navli:hover {
+    color: aqua;
+}
+
+nav {
+    background-image: url("image/gradient-2.png");
+    display: flex;
+    height: 70px;
+}
+
+ul {
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    list-style: none;
+    flex-direction: row;
+
+}
+
+li {
+    display: flex;
+    display: inline-flex;
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    /* justify-content: space-evenly; */
+    padding: 50px;
+}
+
+.logo {
+    height: 70px;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+img {
+    display: flex;
+
+}
